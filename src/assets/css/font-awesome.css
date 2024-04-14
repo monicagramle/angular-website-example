@@ -78,7 +78,7 @@
 }
 /* Deprecated as of 4.4.0 */
 .pull-right {
-  float: right;
+  float: none;
 }
 .pull-left {
   float: left;

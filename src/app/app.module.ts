@@ -3,13 +3,14 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { ReactiveFormsModule } from '@angular/forms';
-
+import { CommonModule} from '@angular/common';
 // Components
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavmenuComponent } from './navmenu/navmenu.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { SocialComponent } from './social/social.component';
+import { PricingBlockComponent } from './pricing/pricing-block/pricing-block.component';
 
 // Modules
 import { AppRoutingModule } from './app-routing.module';
@@ -25,6 +26,7 @@ import { InMemoryDataService } from './shared/services/in-memory-data.service';
 		BrowserModule,
 		HttpClientModule,
 		ReactiveFormsModule,
+		CommonModule,
 
 		// The HttpClientInMemoryWebApiModule module intercepts HTTP requests
 		// and returns simulated server responses.
@@ -37,6 +39,7 @@ import { InMemoryDataService } from './shared/services/in-memory-data.service';
 		NavigationComponent,
 		NavmenuComponent,
 		SocialComponent,
+		PricingBlockComponent
 	],
 	providers: [ConfigService],
 	bootstrap: [AppComponent],

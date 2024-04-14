@@ -8,14 +8,12 @@
 		<p class="pricing-sub">{{ plan.subtitle }}</p>
 		<div class="pricing">
 			<div class="price">
-				<span>{{ plan.currency }}</span
-				>{{ plan.price }}
+				{{ plan.currency }} {{ plan.price }}
 			</div>
 			<p>{{ plan.description }}</p>
 		</div>
 		<ul>
-			<li>{{ plan.downloads }}</li>
-			<li>{{ plan.extensions }}</li>
+			<li *ngFor="let feature of plan.features">{{ feature }}</li>
 			<li>{{ plan.tutorials }}</li>
 			<li>{{ plan.support }}</li>
 			<li>{{ plan.updates }}</li>

@@ -386,7 +386,7 @@ section {
 }
 
 #logo img {
-  max-height: 22px;
+  max-height: 94px;
   vertical-align: middle;
   margin-right: 15px;
 }
@@ -495,14 +495,14 @@ section {
 }
 
 #header.nav-solid {
-  background: #fff;
+  background: #EFE7DD;
   box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.2);
   position: fixed !important;
   left: 0;
 }
 #header.nav-solid nav a {
   border-bottom: 3px solid;
-  border-color: #fff;
+  border-color: #EFE7DD;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -604,7 +604,7 @@ nav#nav-mobile ul {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  background-color: #fff;
+  background-color: #EFE7DD;
   box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -769,7 +769,7 @@ h4 {
 /*------------------------------------------------------------------------------------------*/
 
 #banner {
-  background-size: cover;
+  background-size: 50%;
 }
 
 #banner-content.row {
@@ -871,7 +871,7 @@ h4 {
 }
 
 .divider i {
-  background: #fff;
+  background: #EFE7DD;
   position: relative;
   top: -11px;
   padding: 0 5px 0 5px;
@@ -1076,7 +1076,7 @@ blockquote {
 
 #slvj-close-icon:before {
   font-family: "fontawesome";
-  color: #fff;
+  color: #EFE7DD;
   content: "\f00d";
   font-size: 22px;
   opacity: 0.5;
@@ -1101,7 +1101,7 @@ blockquote {
   position: relative;
   text-transform: uppercase;
   font-weight: bold;
-  color: #fff;
+  color: #EFE7DD;
 }
 
 #clients img {
@@ -1141,13 +1141,13 @@ blockquote {
 /* --------- 6.7 Pricing Table ---------- */
 
 .pricing-block-content {
-  background: #fff;
+  background: #EFE7DD;
   padding: 25px 0 25px 0;
   margin: 0 15px;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.07);
   transition: all 0.2s ease-in-out 0s;
   position: relative;
-  border: 10px solid #fff;
+  border: 10px solid #EFE7DD;
 }
 
 .pricing-block ul {
@@ -1242,7 +1242,7 @@ blockquote {
   padding: 0 5px 20px 5px;
   text-align: center;
   text-decoration: none;
-  color: #fff;
+  color: #EFE7DD;
   -webkit-transition: margin-bottom 150ms linear;
   -moz-transition: margin-bottom 150ms linear;
   -o-transition: margin-bottom 150ms linear;
@@ -1260,7 +1260,7 @@ blockquote {
   font-style: normal;
   font-weight: normal;
   text-align: center;
-  color: #fff;
+  color: #EFE7DD;
   width: 45px;
   height: 45px;
   display: inline-block;
@@ -1277,7 +1277,7 @@ blockquote {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #fff; /* change if the mask should have another color then white */
+  background-color: #EFE7DD; /* change if the mask should have another color then white */
   z-index: 99999; /* makes sure it stays on top */
 }
 
@@ -1308,7 +1308,7 @@ blockquote {
 .la-ball-triangle-path {
   display: block;
   font-size: 0;
-  color: #fff;
+  color: #EFE7DD;
 }
 
 .la-ball-triangle-path.la-dark {
@@ -2105,36 +2105,36 @@ blockquote {
 /*------------------------------------------------------------------------------------------*/
 
 body {
-  background: #fff;
+  background: #EFE7DD;
 }
 
 /* Default Link Color */
 
 a,
 .la-ball-triangle-path {
-  color: #d2b356;
+  color: #764B36;
 }
 
 a:hover,
 #header.nav-solid nav a:hover {
-  color: #d2b356;
+  color: #764B36;
 }
 
 /* Default Icon Color */
 
 .icon i {
-  color: #d2b356;
+  color: #764B36;
 }
 
 /* Border Color */
 
 #banner .section-heading:before,
 .testimonial.classic footer:before {
-  background: #d2b356;
+  background: #764B36;
 }
 
 .pricing-block-content:hover {
-  border-color: #d2b356;
+  border-color: #764B36;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -2160,8 +2160,8 @@ a:hover,
 /* Navigation Active State */
 
 #header.nav-solid .active {
-  color: #d2b356;
-  border-color: #d2b356;
+  color: #764B36;
+  border-color: #764B36;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -2172,7 +2172,7 @@ a:hover,
 
 .primary-color,
 .featured .pricing {
-  background-color: #d2b356;
+  background-color: #764B36;
 }
 
 .primary-color,
@@ -2180,11 +2180,11 @@ a:hover,
 .primary-color .section-subtitle,
 .featured .pricing,
 .featured .pricing p {
-  color: #fff;
+  color: #EFE7DD;
 }
 
 .section-heading h2:after {
-  background: #d2b356;
+  background: #764B36;
   content: "";
   display: block;
   width: 30px;
@@ -2200,7 +2200,7 @@ a:hover,
 
 .primary-color .icon i,
 .primary-color i {
-  color: #fff;
+  color: #EFE7DD;
 }
 
 /* Secondary Background and Text Colors */
@@ -2217,8 +2217,8 @@ a:hover,
 
 #banner {
   background: url("assets/images/banner-images/banner-image-1.jpg") no-repeat
-    center top;
-  background-size: cover;
+  right center;
+  background-size: 50%;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -2350,8 +2350,8 @@ h4 {
 /* Button Hover Color */
 
 #banner .button:hover {
-  color: #d2b356;
-  border-color: #d2b356;
+  color: #764B36;
+  border-color: #764B36;
 }
 
 /*------------------------------------------------------------------------------------------*/

@@ -5,8 +5,7 @@ export class Plan {
 	description: string;
 	price: string;
 	currency: string;
-	downloads: string;
-	extensions: string;
+	features: string[];
 	tutorials: string;
 	support: string;
 	updates: string;
