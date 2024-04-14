@@ -26,24 +26,10 @@ const routes: Routes = [
 			),
 	},
 	{
-		path: 'testimonials',
-		loadComponent: () =>
-			import('./testimonial/testimonial-page/testimonial-page.component').then(
-				mod => mod.TestimonialPageComponent
-			),
-	},
-	{
 		path: 'gallery',
 		loadComponent: () =>
 			import('./gallery/gallery-page/gallery-page.component').then(
 				mod => mod.GalleryPageComponent
-			),
-	},
-	{
-		path: 'clients',
-		loadComponent: () =>
-			import('./clients/clients-page/clients-page.component').then(
-				mod => mod.ClientsPageComponent
 			),
 	},
 	{
