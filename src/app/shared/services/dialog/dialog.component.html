@@ -1,0 +1,23 @@
+<h2 mat-dialog-title>Tell us about your Coffee Shop</h2>
+<mat-dialog-content>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Shop Name</mat-label>
+    <input matInput type="text" [(ngModel)]="shopName" name="shopName" required>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Shop Location</mat-label>
+    <input matInput type="text" [(ngModel)]="shopLocation" name="shopLocation" required>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Website URL (Optional)</mat-label>
+    <input matInput type="text" [(ngModel)]="websiteUrl" name="websiteUrl">
+  </mat-form-field>
+
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button color="primary" (click)="onSubmit()">Get Started</button>
+  <button mat-button type="button" mat-dialog-close>Cancel</button>
+</mat-dialog-actions>

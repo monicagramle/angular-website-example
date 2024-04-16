@@ -27,7 +27,7 @@ export class InMemoryDataService implements InMemoryDbService {
 				id: 3,
 				name: 'services',
 				tagline: 'Elevate Your Coffee Shop with a Website that Brews Success',
-				title: 'Do you dream of a website that captures the essence of your coffee shop and attracts new customers like a freshly brewed cup of joe?',
+				title: 'Do you dream of a website that captures the essence of your coffee shop?',
 				description:
 				'Look no further! I specialize in crafting beautiful and functional websites designed specifically for coffee shops.'
 			},
@@ -94,12 +94,12 @@ export class InMemoryDataService implements InMemoryDbService {
 			},
 		];
 		const images = [
-			{ id: 1, name: 'gallery-image-1.jpg' },
-			{ id: 2, name: 'gallery-image-2.jpg' },
-			{ id: 3, name: 'gallery-image-3.jpg' },
-			{ id: 4, name: 'gallery-image-4.jpg' },
-			{ id: 5, name: 'gallery-image-5.jpg' },
-			{ id: 6, name: 'gallery-image-6.jpg' },
+			{ id: 1, name: 'gallery-image-1.png' },
+			{ id: 2, name: 'gallery-image-2.png' },
+			{ id: 3, name: 'gallery-image-3.png' },
+			{ id: 4, name: 'gallery-image-4.png' },
+			{ id: 5, name: 'gallery-image-5.png' },
+			{ id: 6, name: 'gallery-image-6.png' },
 		];
 		const menu = [
 			{ id: 1, title: 'Home', link: '/home' },
@@ -196,8 +196,8 @@ export class InMemoryDataService implements InMemoryDbService {
 				title: 'Starter Brew',
 				subtitle: 'Perfect for new shops',
 				description: 'Get your coffee shop online with a beautiful, mobile-friendly website showcasing your menu and attracting new customers.',
-				price: '300',
-				currency: '£',
+				// price: '299',
+				// currency: '£',
 				features: [ 
 				"Single-page website design",
 				"Menu integration",
@@ -218,10 +218,10 @@ export class InMemoryDataService implements InMemoryDbService {
 				title: 'Caffeinated Pro',
 				subtitle: 'Grow your online presence',
 				description: 'Take your coffee shop website to the next level with online ordering, reservation capabilities, and marketing tools to boost sales.',
-				price: '500',
-				currency: '£',
+				// price: '499',
+				// currency: '£',
 				features: [
-				'(In addition to Starter Brew features)', 
+				'*(In addition to Starter Brew features)', 
 				'Multi-page website design',
 				'Online ordering system',
 				'Reservation system (optional)', 
@@ -240,10 +240,10 @@ export class InMemoryDataService implements InMemoryDbService {
 				title: 'Coffee Maestro',
 				subtitle: 'The complete solution',
 				description: 'Attract, engage, and retain customers with a comprehensive solution that includes advanced features, marketing automation, and ongoing support',
-				price: '1000',
-				currency: '£',
+				// price: '999',
+				// currency: '£',
 				features: [
-				'(In addition to Caffeinated Pro features)', 
+				'*(In addition to Caffeinated Pro features)', 
 				'Loyalty program integration', 
 				'Email marketing tools', 
 				'Advanced SEO optimization', 

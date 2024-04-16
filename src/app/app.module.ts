@@ -18,6 +18,7 @@ import { AppRoutingModule } from './app-routing.module';
 // Services
 import { ConfigService } from './shared/services/config.service';
 import { InMemoryDataService } from './shared/services/in-memory-data.service';
+import { DialogComponent } from './shared/services/dialog/dialog.component';
 
 @NgModule({
 	declarations: [AppComponent],
@@ -39,7 +40,8 @@ import { InMemoryDataService } from './shared/services/in-memory-data.service';
 		NavigationComponent,
 		NavmenuComponent,
 		SocialComponent,
-		PricingBlockComponent
+		PricingBlockComponent,
+		DialogComponent
 	],
 	providers: [ConfigService],
 	bootstrap: [AppComponent],
