@@ -58,8 +58,8 @@ export class InMemoryDataService implements InMemoryDbService {
 				tagline: 'Brew Up More Business',
 				title:
 					'Websites Designed for Coffee Shops. Attract new customers and boost your online presence with a website that is as unique as your coffee',
-				buttontext: 'CONSULT NOW',
-				buttonlink: 'https://calendly.com/frontendo-official',
+				buttontext: 'CONTACT NOW',
+				buttonlink: 'https://calendly.com/frontendo-official/consultation-call',
 				image: 'banner-image-1.jpg',
 			},
 		];
@@ -210,7 +210,7 @@ export class InMemoryDataService implements InMemoryDbService {
 				support: 'Forum Support',
 				updates: '1 year free updates',
 				buttontext: 'Brew Up Your Website',
-				buttonlink: 'https://calendly.com/frontendo-official',
+				buttonlink: 'https://calendly.com/frontendo-official/brew-up-your-website',
 				featured: false,
 			},
 			{
@@ -232,7 +232,7 @@ export class InMemoryDataService implements InMemoryDbService {
 				support: 'Forum Support',
 				updates: '2 year free updates',
 				buttontext: 'Supercharge Your Sales',
-				buttonlink: 'https://calendly.com/frontendo-official',
+				buttonlink: 'https://calendly.com/frontendo-official/supercharge-your-sales',
 				featured: true,
 			},
 			{
@@ -254,7 +254,7 @@ export class InMemoryDataService implements InMemoryDbService {
 				support: 'Chat Support',
 				updates: '3 year free updates',
 				buttontext: 'Brew the Perfect Experience',
-				buttonlink: 'https://calendly.com/frontendo-official',
+				buttonlink: 'https://calendly.com/frontendo-official/brew-the-perfect-experience',
 				featured: false,
 			},
 		];
