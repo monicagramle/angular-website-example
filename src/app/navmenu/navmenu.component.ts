@@ -12,7 +12,7 @@ interface MenuItem { id: number; title: string; link: string }[];
 export class NavmenuComponent {
 	@Input() menu: MenuItem[];
 	@Input() menuOpen: boolean;
-	@Output() menuStatus: EventEmitter<boolean>;
+	@Output() menuStatus: EventEmitter<boolean> = new EventEmitter<boolean>(); ;
 
 	toggleMenu(): void {
 		this.menuStatus.emit(!this.menuOpen);

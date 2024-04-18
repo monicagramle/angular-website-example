@@ -751,7 +751,7 @@ h4 {
 /* Section Headings */
 
 .section-heading {
-  padding: 0;
+  padding-top: 16px;
 }
 
 .section-subtitle {
@@ -773,6 +773,7 @@ h4 {
 
 #banner {
   background-size: 50%;
+  background: url(../src/assets/images/banner-images/banner-image-1.jpg) no-repeat right center;
 }
 
 #banner-content.row {
@@ -1811,6 +1812,11 @@ blockquote {
   nav#nav-mobile li {
     display: block;
   }
+  
+  #banner { 
+  background: url("assets/images/banner-images/banner-image-1.jpg") no-repeat
+  right center;
+  }
 
   #header aside {
     display: none;
@@ -1823,6 +1829,10 @@ blockquote {
   #wrapper {
     margin: 0;
     padding: 0;
+  }
+
+  #banner {
+    background: none; /* Remove the background style */
   }
 
   .page-border,
@@ -1851,9 +1861,12 @@ blockquote {
   .col-3-4,
   .col-9-10,
   .col-61,
-  .col-38,
   .row {
     width: 100%;
+  }
+
+  .col-38{
+    width: 50%;
   }
 
   .col-1,
@@ -1972,9 +1985,12 @@ blockquote {
   .col-2-3,
   .col-3-4,
   .col-61,
-  .col-38,
   .row {
     width: 100%;
+  }
+
+  .col-38 {
+    width:30%;
   }
 
   .col-3,
@@ -2029,6 +2045,11 @@ blockquote {
   .slvj-lightbox embed {
     height: 370px !important;
   }
+
+  #banner { 
+    background: url("assets/images/banner-images/banner-image-1.jpg") no-repeat
+    right center;
+    }
 
   /* Footer */
   #landing-footer #copyright {
@@ -2219,8 +2240,6 @@ a:hover,
 /* Banner Background and Text Colors */
 
 #banner {
-  background: url("assets/images/banner-images/banner-image-1.jpg") no-repeat
-  right center;
   background-size: 50%;
 }
 
@@ -2348,6 +2367,7 @@ h4 {
 
 #banner .button {
   border-color: #111;
+  text-align: center;
 }
 
 /* Button Hover Color */

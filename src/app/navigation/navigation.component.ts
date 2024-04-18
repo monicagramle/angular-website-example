@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Location } from '@angular/common';
+import { Location, NgIf } from '@angular/common';
 import { ConfigService } from '../shared/services/config.service';
 import { NavmenuComponent } from '../navmenu/navmenu.component';
 
@@ -8,7 +8,7 @@ import { NavmenuComponent } from '../navmenu/navmenu.component';
     templateUrl: './navigation.component.html',
     styleUrls: ['./navigation.component.css'],
     standalone: true,
-    imports: [NavmenuComponent],
+    imports: [NavmenuComponent, NgIf],
 })
 export class NavigationComponent implements OnInit {
 	menu: { id: number; title: string; link: string }[];

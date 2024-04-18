@@ -29,15 +29,17 @@
       <div id="nav-trigger">
         <span
           [class.open]="menuOpen === true"
-          (onClick)="toggleMenu(!menuOpen)"
+          (click)="toggleMenu(!menuOpen)"
         (onKeyUp)="toggleMenu(!menuOpen)"></span>
       </div>
       <nav id="nav-mobile">
         @if (menuOpen === true) {
           <app-navmenu
-            [menu]="menu"
-            (menuStatus)="toggleMenu($event)"
-          [menuOpen]="menuOpen"></app-navmenu>
+          *ngIf="menuOpen"
+          [menu]="menu"
+          (menuStatus)="toggleMenu($event)"
+          [menuOpen]="menuOpen">
+        </app-navmenu>
         }
       </nav>
     </div>

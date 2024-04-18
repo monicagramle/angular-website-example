@@ -259,14 +259,14 @@ export class InMemoryDataService implements InMemoryDbService {
 			},
 		];
 		const websites = [
-			{
-				id: 1,
-				link: 'https://facebook.com/',
-				title: 'Facebook',
-				target: '_blank',
-				username: 'Thor',
-				icon: 'facebook',
-			},
+			// {
+			// 	id: 1,
+			// 	link: 'https://facebook.com/',
+			// 	title: 'Facebook',
+			// 	target: '_blank',
+			// 	username: 'Thor',
+			// 	icon: 'facebook',
+			// },
 			// {
 			//   id: 2,
 			//   link: "https://googleplus.com/",
@@ -275,22 +275,22 @@ export class InMemoryDataService implements InMemoryDbService {
 			//   username: "+jagmohan",
 			//   icon: "google-plus",
 			// },
-			{
-				id: 3,
-				link: 'https://twitter.com/',
-				title: 'Twitter',
-				target: '_blank',
-				username: 'joker',
-				icon: 'twitter',
-			},
-			{
-				id: 4,
-				link: 'https://instagram.com/',
-				title: 'Instagram',
-				target: '_blank',
-				username: 'superman',
-				icon: 'instagram',
-			},
+			// {
+			// 	id: 3,
+			// 	link: 'https://twitter.com/',
+			// 	title: 'Twitter',
+			// 	target: '_blank',
+			// 	username: 'joker',
+			// 	icon: 'twitter',
+			// },
+			// {
+			// 	id: 4,
+			// 	link: 'https://instagram.com/',
+			// 	title: 'Instagram',
+			// 	target: '_blank',
+			// 	username: 'superman',
+			// 	icon: 'instagram',
+			// },
 			// {
 			//   id: 5,
 			//   link: "https://behance.com/",
