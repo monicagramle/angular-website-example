@@ -29,7 +29,7 @@ export class InMemoryDataService implements InMemoryDbService {
 				tagline: 'Elevate Your Coffee Shop with a Website that Brews Success',
 				title: 'Do you dream of a website that captures the essence of your coffee shop?',
 				description:
-				'Look no further! I specialize in crafting beautiful and functional websites designed specifically for coffee shops.'
+				'Look no further! We specialize in crafting beautiful and functional websites designed specifically for coffee shops.'
 			},
 			{
 				id: 4,
