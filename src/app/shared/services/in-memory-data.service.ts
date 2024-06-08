@@ -196,8 +196,8 @@ export class InMemoryDataService implements InMemoryDbService {
 				title: 'Starter Brew',
 				subtitle: 'Perfect for new shops',
 				description: 'Get your business online with a beautiful, mobile-friendly website showcasing your menu and attracting new customers.',
-				// price: '299',
-				// currency: '£',
+				price: '299',
+				currency: '£',
 				features: [ 
 				"Single-page website design",
 				"Menu integration",
@@ -218,8 +218,8 @@ export class InMemoryDataService implements InMemoryDbService {
 				title: 'Caffeinated Pro',
 				subtitle: 'Grow your online presence',
 				description: 'Take your business website to the next level with online ordering, reservation capabilities, and marketing tools to boost sales.',
-				// price: '499',
-				// currency: '£',
+				price: '499',
+				currency: '£',
 				features: [
 				'*(In addition to Starter Brew features)', 
 				'Multi-page website design',
@@ -240,8 +240,8 @@ export class InMemoryDataService implements InMemoryDbService {
 				title: 'Coffee Maestro',
 				subtitle: 'The complete solution',
 				description: 'Attract, engage, and retain customers with a comprehensive solution that includes advanced features, marketing automation, and ongoing support',
-				// price: '999',
-				// currency: '£',
+				price: '999',
+				currency: '£',
 				features: [
 				'*(In addition to Caffeinated Pro features)', 
 				'Loyalty program integration', 
