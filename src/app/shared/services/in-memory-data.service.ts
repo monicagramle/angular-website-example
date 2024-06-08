@@ -13,7 +13,7 @@ export class InMemoryDataService implements InMemoryDbService {
 				tagline: 'SUCCESS',
 				title: 'How We Help You To Sell Your Product',
 				description:
-					'Our focus is on creating websites specifically for coffee shops. We understand your unique needs and challenges & cater to them according to your vision. We want to help you create your mark on the online world.',
+					'Our focus is on creating websites specifically for your business. We understand your unique needs and challenges & cater to them according to your vision. We want to help you create your mark on the online world.',
 			},
 			{
 				id: 2,
@@ -26,10 +26,10 @@ export class InMemoryDataService implements InMemoryDbService {
 			{
 				id: 3,
 				name: 'services',
-				tagline: 'Elevate Your Coffee Shop with a Website that Brews Success',
-				title: 'Do you dream of a website that captures the essence of your coffee shop?',
+				tagline: 'Elevate Your Business with a Website that Brews Success',
+				title: 'Do you dream of a website that captures the essence of your business?',
 				description:
-				'Look no further! We specialize in crafting beautiful and functional websites designed specifically for coffee shops.'
+				'Look no further! We specialize in crafting beautiful and functional websites designed specifically for product/service.'
 			},
 			{
 				id: 4,
@@ -57,7 +57,7 @@ export class InMemoryDataService implements InMemoryDbService {
 				name: 'header',
 				tagline: 'Brew Up More Business',
 				title:
-					'Websites Designed for Coffee Shops. Attract new customers and boost your online presence with a website that is as unique as your coffee',
+					'Websites Designed for Businesses like yours. Attract new customers and boost your online presence with a website that is as unique as your product/service',
 				buttontext: 'CONTACT NOW',
 				buttonlink: 'https://calendly.com/frontendo-official/consultation-call',
 				image: 'banner-image-1.jpg',
@@ -69,7 +69,7 @@ export class InMemoryDataService implements InMemoryDbService {
 				icon: 'tablet',
 				title: 'Mobile-Friendly Design',
 				description:
-					"Essential for today's coffee shop customers on the go.",
+					"Essential for today's customers who are always on the go.",
 			},
 			{
 				id: 2,
@@ -83,14 +83,14 @@ export class InMemoryDataService implements InMemoryDbService {
 				icon: 'rocket',
 				title: 'Local SEO Optimization',
 				description:
-					'Your coffee shops rank higher in local Google searches for "coffee shops near me"',
+					'Your business rank higher in local Google searches',
 			},
 			{
 				id: 4,
 				icon: 'html5',
 				title: 'High-Quality Photos',
 				description:
-					"Showcases your coffee shop's aesthetic and delicious offerings.",
+					"Showcases your business's aesthetic and delicious offerings.",
 			},
 		];
 		const images = [
@@ -195,7 +195,7 @@ export class InMemoryDataService implements InMemoryDbService {
 				id: 1,
 				title: 'Starter Brew',
 				subtitle: 'Perfect for new shops',
-				description: 'Get your coffee shop online with a beautiful, mobile-friendly website showcasing your menu and attracting new customers.',
+				description: 'Get your business online with a beautiful, mobile-friendly website showcasing your menu and attracting new customers.',
 				// price: '299',
 				// currency: '£',
 				features: [ 
@@ -217,7 +217,7 @@ export class InMemoryDataService implements InMemoryDbService {
 				id: 2,
 				title: 'Caffeinated Pro',
 				subtitle: 'Grow your online presence',
-				description: 'Take your coffee shop website to the next level with online ordering, reservation capabilities, and marketing tools to boost sales.',
+				description: 'Take your business website to the next level with online ordering, reservation capabilities, and marketing tools to boost sales.',
 				// price: '499',
 				// currency: '£',
 				features: [
