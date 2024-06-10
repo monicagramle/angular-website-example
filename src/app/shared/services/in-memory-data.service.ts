@@ -59,7 +59,7 @@ export class InMemoryDataService implements InMemoryDbService {
 				title:
 					'Websites Designed for Businesses like yours. Attract new customers and boost your online presence with a website that is as unique as your product/service',
 				buttontext: 'CONTACT NOW',
-				buttonlink: 'https://calendly.com/frontendo-official/consultation-call',
+				buttonlink: 'https://app.notta.ai/scheduler-share/adc3a29567284663b0d8b6572beccef3',
 				image: 'banner-image-1.jpg',
 			},
 		];
@@ -210,7 +210,7 @@ export class InMemoryDataService implements InMemoryDbService {
 				support: 'Forum Support',
 				updates: '1 year free updates',
 				buttontext: 'Brew Up Your Website',
-				buttonlink: 'https://calendly.com/frontendo-official/brew-up-your-website',
+				buttonlink: 'https://app.notta.ai/scheduler-share/0a402515b98b4c86b0444948378172e6',
 				featured: false,
 			},
 			{
@@ -232,7 +232,7 @@ export class InMemoryDataService implements InMemoryDbService {
 				support: 'Forum Support',
 				updates: '2 year free updates',
 				buttontext: 'Supercharge Your Sales',
-				buttonlink: 'https://calendly.com/frontendo-official/supercharge-your-sales',
+				buttonlink: 'https://app.notta.ai/scheduler-share/0482a0ebe9d9488ca2dc18a3f260421b',
 				featured: true,
 			},
 			{
@@ -254,7 +254,7 @@ export class InMemoryDataService implements InMemoryDbService {
 				support: 'Chat Support',
 				updates: '3 year free updates',
 				buttontext: 'Brew the Perfect Experience',
-				buttonlink: 'https://calendly.com/frontendo-official/brew-the-perfect-experience',
+				buttonlink: 'https://app.notta.ai/scheduler-share/8024a415633c46a9aa6dbb08c9987186',
 				featured: false,
 			},
 		];
