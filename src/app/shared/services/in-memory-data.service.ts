@@ -10,10 +10,12 @@ export class InMemoryDataService implements InMemoryDbService {
 			{
 				id: 1,
 				name: 'intro',
-				tagline: 'SUCCESS',
-				title: 'How We Help You To Sell Your Product',
+				tagline: '',
+				title: 'Get 10% off',
 				description:
-					'Our focus is on creating websites specifically for your business. We understand your unique needs and challenges & cater to them according to your vision. We want to help you create your mark on the online world.',
+					'We provide delivery & collection. Browse our menu & call 01707 662623 to place your order now',
+			    buttontext: 'SEE MENU',
+				buttonlink: '/pricing',
 			},
 			{
 				id: 2,
@@ -55,11 +57,11 @@ export class InMemoryDataService implements InMemoryDbService {
 			{
 				id: 7,
 				name: 'header',
-				tagline: 'Brew Up More Business',
+				tagline: 'The Old Paparazzi',
 				title:
-					'Websites Designed for Businesses like yours. Attract new customers and boost your online presence with a website that is as unique as your product/service',
-				buttontext: 'CONTACT NOW',
-				buttonlink: 'https://calendly.com/frontendo-official/consultation-call',
+					'Fine Italian Cuisine & Unique Wine Selection',
+				buttontext: 'SEE MENU',
+				buttonlink: '/pricing',
 				image: 'banner-image-1.jpg',
 			},
 		];
@@ -103,10 +105,11 @@ export class InMemoryDataService implements InMemoryDbService {
 		];
 		const menu = [
 			{ id: 1, title: 'Home', link: '/home' },
-			{ id: 2, title: 'About', link: '/about' },
-			{ id: 3, title: 'Services', link: '/services' },
-			{ id: 4, title: 'Gallery', link: '/gallery' },
-			{ id: 7, title: 'Pricing', link: '/pricing' },
+			{ id: 2, title: 'Take away', link: '/about' },
+			{ id: 3, title: 'Reservations', link: '/services' },
+			{ id: 4, title: 'Our Story', link: '/gallery' },
+			{ id: 7, title: 'Menu', link: '/pricing' },
+			{ id: 8, title: 'Contact', link: '/pricing' },
 		];
 		const companies = [
 			{

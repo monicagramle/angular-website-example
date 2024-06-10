@@ -78,7 +78,8 @@
 }
 /* Deprecated as of 4.4.0 */
 .pull-right {
-  float: none;
+  float: left;
+  padding: 100px;
 }
 .pull-left {
   float: left;

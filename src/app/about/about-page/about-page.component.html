@@ -1,11 +1,14 @@
 @if (intro$ | async; as intro) {
-	<section id="about" class="introduction scrollto pull-right">
+	<section id="about" class="introduction scrollto">
 		<div class="row clearfix">
 			<div class="col-3">
 				<div class="section-heading">
 					<h3>{{ intro.tagline }}</h3>
 					<h2 class="section-title">{{ intro.title }}</h2>
 					<p class="section-subtitle">{{ intro.description }}</p>
+					<a routerLink="{{ intro.buttonlink }}" class="button">{{
+						intro.buttontext
+					}}</a>
 				</div>
 			</div>
 			@if (features$) {

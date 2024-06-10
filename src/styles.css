@@ -220,6 +220,10 @@ section {
   position: relative;
 }
 
+.italic-font {
+  font-style: italic;
+}
+
 .no-padding-bottom .row,
 .no-padding-bottom div,
 .no-padding-bottom.row {
@@ -416,13 +420,14 @@ section {
 .button {
   font-size: 16px;
   margin: 35px 0;
-  padding: 11px 16px;
+  padding: 11px 40px;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   transition: all 0.3s linear;
   display: inline-block;
   border-width: 3px;
-  border-style: solid;
+  border-style: none;
+  border-radius: 5px;
 }
 
 /* Play Button */
@@ -495,13 +500,13 @@ section {
 }
 
 #header.nav-solid {
-  background: #EFE7DD;
-  box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.2);
+  background: #faf8eb;
+  /* box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.2); */
   position: fixed !important;
   left: 0;
 }
 #header.nav-solid nav a {
-  border-bottom: 3px solid;
+  /* border-bottom: 3px solid; */
   border-color: #EFE7DD;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -2129,7 +2134,7 @@ blockquote {
 /*------------------------------------------------------------------------------------------*/
 
 body {
-  background: #EFE7DD;
+  background: #faf8eb;
 }
 
 /* Default Link Color */
@@ -2141,7 +2146,7 @@ a,
 
 a:hover,
 #header.nav-solid nav a:hover {
-  color: #764B36;
+  color: #ff0707;
 }
 
 /* Default Icon Color */
@@ -2154,7 +2159,7 @@ a:hover,
 
 #banner .section-heading:before,
 .testimonial.classic footer:before {
-  background: #764B36;
+  background: #ff0707;
 }
 
 .pricing-block-content:hover {
@@ -2178,13 +2183,14 @@ a:hover,
 #header.nav-solid a,
 #header.nav-solid i,
 #nav-mobile ul li a {
-  color: #333;
+  color: #ff0707;
+  font-weight: 500;
 }
 
 /* Navigation Active State */
 
 #header.nav-solid .active {
-  color: #764B36;
+  color: #ff0707;
   border-color: #764B36;
 }
 
@@ -2208,7 +2214,7 @@ a:hover,
 }
 
 .section-heading h2:after {
-  background: #764B36;
+  background: #ff0707;
   content: "";
   display: block;
   width: 30px;
@@ -2276,14 +2282,14 @@ body {
   font-size: 62px;
   line-height: 60px;
   font-weight: 800;
-  color: #111;
+  color: #ff0707;
 }
 
 #banner h2 {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   font-size: 18px;
   font-weight: 300;
-  color: #111;
+  color: #ff0707;
 }
 
 /* Section Title and Subtitle */
@@ -2359,23 +2365,42 @@ h4 {
 
 #banner .button {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
-  font-size: 16px;
-  color: #111;
+  font-size: 12px;
+  color: #faf8eb;
+}
+
+#about .button {
+  font-family: "Open Sans", sans-serif, Arial, Helvetica;
+  font-size: 12px;
+  color: #faf8eb;
 }
 
 /* Button Color */
 
 #banner .button {
-  border-color: #111;
+  /* border-color: #111; */
+  background: #ff0707;
+  text-align: center;
+}
+
+#about .button {
+  /* border-color: #111; */
+  background: #ff0707;
   text-align: center;
 }
 
 /* Button Hover Color */
 
-#banner .button:hover {
-  color: #764B36;
+#about .button:hover {
+  color: #faf8eb;
   border-color: #764B36;
 }
+
+#banner .button:hover {
+  color: #faf8eb;
+  border-color: #764B36;
+}
+
 
 /*------------------------------------------------------------------------------------------*/
 /* 7. Footer */

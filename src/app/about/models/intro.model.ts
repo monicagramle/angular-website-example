@@ -4,4 +4,6 @@ export class Intro {
 	tagline: string;
 	title: string;
 	description: string;
+	buttonlink: string;
+	buttontext: string;
 }

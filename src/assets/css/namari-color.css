@@ -269,7 +269,7 @@ input[type="submit"] {
 
 .button,
 input[type="submit"] {
-  border-color: #111;
+  border-color: #ff0707;
 }
 
 /* Button Hover Color */
@@ -292,9 +292,9 @@ input[type="submit"]:hover {
 
 /* Button Color */
 
-#banner .button {
-  border-color: #111;
-}
+/* #banner .button {
+  border-color: #111; 
+} */
 
 /* Button Hover Color */
 

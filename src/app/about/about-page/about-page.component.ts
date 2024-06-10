@@ -5,12 +5,13 @@ import { Intro } from '../models/intro.model';
 import { Feature } from '../models/feature.model';
 import { AsyncPipe } from '@angular/common';
 import { FeatureBlockComponent } from '../feature-block/feature-block.component';
+import { RouterLink } from '@angular/router';
 
 @Component({
 	selector: 'app-about-page',
 	templateUrl: './about-page.component.html',
 	standalone: true,
-	imports: [FeatureBlockComponent, AsyncPipe],
+	imports: [FeatureBlockComponent, AsyncPipe, RouterLink],
 })
 export class AboutPageComponent implements OnInit {
 	intro$: Observable<Intro>;
@@ -20,7 +21,7 @@ export class AboutPageComponent implements OnInit {
 
 	ngOnInit(): void {
 		this.getPageData('pages', 1);
-		this.getBlockData('features');
+		// this.getBlockData('features');
 	}
 
 	getPageData(database: string, id?: number): void {
